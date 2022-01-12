@@ -8,7 +8,7 @@ import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
 
-public class IssueNameSelenideListenerTest {
+public class SelenideListenerTest {
 
     @Test
     public void testGithub() {
