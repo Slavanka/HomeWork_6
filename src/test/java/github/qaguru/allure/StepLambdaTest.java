@@ -10,8 +10,7 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-public class StepsTest {
-
+public class StepLambdaTest {
     public static final String REPOSITORY = "Slavanka/HomeWork_6";
 
     @Test
@@ -42,5 +41,4 @@ public class StepsTest {
             $(partialLinkText("Issues")).click();
         });
     }
-
 }

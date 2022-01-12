@@ -1,13 +1,7 @@
-package github.qaguru.allure;
+package github.qaguru.allure.Steps;
 
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.WebDriverRunner;
-import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 
-import java.nio.charset.StandardCharsets;
-
-import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.linkText;
@@ -38,9 +32,6 @@ public class WebSteps {
         $(partialLinkText("Issues")).click();
     }
 
-    @Attachment(value = "Screenshot", type = "text/html", fileExtension = "html")
-    public byte[] attachPageSource() {
-        return WebDriverRunner.source().getBytes(StandardCharsets.UTF_8);
-    }
 
 }
+
