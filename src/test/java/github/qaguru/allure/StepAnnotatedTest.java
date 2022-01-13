@@ -1,8 +1,6 @@
 package github.qaguru.allure;
 
-import github.qaguru.allure.Steps.WebSteps;
-import io.qameta.allure.*;
-import org.junit.jupiter.api.DisplayName;
+import github.qaguru.allure.steps.WebSteps;
 import org.junit.jupiter.api.Test;
 
 public class StepAnnotatedTest {

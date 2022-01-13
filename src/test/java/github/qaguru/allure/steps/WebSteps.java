@@ -1,4 +1,4 @@
-package github.qaguru.allure.Steps;
+package github.qaguru.allure.steps;
 
 import io.qameta.allure.Step;
 
